@@ -35,12 +35,12 @@ function nameAnalysis(firstName, lastName) {
     // Calculate five different values based on The I Chin, uses a letter index, strokes to form a letter, and the Yin/Yang value of the letter.
     let values = [0,0,0,0,0];
 
-    for (const c of firstName) {
+    for (const c of lastName) {
         values[0] += letters[c][1] + letters[c][2];
         values[2] += letters[c][0] + letters[c][1] + letters[c][2];
     }
 
-    for (const c of lastName) {
+    for (const c of firstName) {
         values[1] += letters[c][1] + letters[c][2]; 
     }
 
