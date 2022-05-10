@@ -21,7 +21,7 @@ The method derives 5 results, which are Tian(the heaven), Di(the earth), Ren(per
 
 The API requires only two user input: `firstname` and `lastname`. All two names should only contain letters, no numbers, special or foreign characters are allowed (and no spaces.). It returns a JSON result of the analysis. The result includes five fields, in which each field gives the value of the computation, the fortune in Chinese and English(which gives a brief view of the detail), and the analysis.
 
-For example, `fName=John&lName=Doe`
+For example, `https://express-name-9418.wl.r.appspot.com/fName=John&lName=Doe`
 
 ```json
 {
